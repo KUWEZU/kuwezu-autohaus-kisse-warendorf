@@ -10,13 +10,20 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "KUWEZU | Professionelle Kfz-Werkstatt",
-  description: "Ihre Kfz-Werkstatt für alle Leistungen. Qualität und Transparenz.",
+  title: "Autohaus Kisse | KFZ / Autowerkstatt in Warendorf",
+  description: "Autohaus Kisse in Warendorf — Ihr Experte für Autoglas, Bremsen, Elektroautos und mehr. Jetzt Termin vereinbaren!",
   openGraph: {
-    title: "KUWEZU | Professionelle Kfz-Werkstatt",
-    description: "Ihre zuverlässige Kfz-Werkstatt.",
+    title: "Autohaus Kisse | KFZ / Autowerkstatt in Warendorf",
+    description: "Autohaus Kisse in Warendorf — Ihr Experte für Autoglas, Bremsen, Elektroautos und mehr. Jetzt Termin vereinbaren!",
     type: "website",
     locale: "de_DE",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
+      { url: "/logo.png", type: "image/png" },
+    ],
+    apple: "/logo.png",
   },
 };
 
